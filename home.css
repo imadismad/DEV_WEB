@@ -1,0 +1,79 @@
+* {
+    /*Enlever les parametres de bases pour avoir plus de contrôl sur les propriétés des élément*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;/* pour cacher la barre de recherche sur la droite */
+    font-family: 'Poppins', sans-serif; /* Tous les élément du body seront avec la police Poppins */
+
+  }
+
+.for-box25{
+    background-color: red;
+}
+
+.nomderecette{
+    color:white;
+    
+}
+
+.description{
+    color: white;
+}
+
+.form-box2{
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;/**/
+    
+    background-color: rgba(255, 255, 255, 0.001);/*pour avoir un fond blanc mais d'opacité assez faibe pour pouvoir voir le fond d'écran*/
+    backdrop-filter: blur(20px);/*utilisation de la fonction de perfectionner l'effet flou déjà commencer dans background color*/
+    border: 3px solid white;/* couleur et épesseur de la bordure de la case */
+    height: auto;
+    
+    
+
+
+}
+
+.form-box0{
+    margin: 30px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;/**/
+    
+    background-color: rgba(56, 198, 198, 0.3);/*pour avoir un fond blanc mais d'opacité assez faibe pour pouvoir voir le fond d'écran*/
+    backdrop-filter: blur(20px);/*utilisation de la fonction de perfectionner l'effet flou déjà commencer dans background color*/
+    border: 3px solid white;/* couleur et épesseur de la bordure de la case */
+    
+}
+
+.image-container {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+.darari {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+
+.fifi{
+    color: rgba(124, 234, 186, 0.476);
+    
+}
+
+.form-box0.reverse {
+    flex-direction: row ;
+  }
+
+img{
+    border-radius: 10%;
+    max-height: 90%;
+    max-width: 90%;
+    overflow: hidden;
+}

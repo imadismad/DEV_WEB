@@ -1,0 +1,68 @@
+* {
+    /*Enlever les parametres de bases pour avoir plus de contrôl sur les propriétés des éléments*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box;/* pour cacher la barre de recherche sur la droite */
+    font-family: 'Poppins', sans-serif; /* Tous les élément du body seront avec la police Poppins */
+
+  }
+body{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+#cc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 100%;
+    
+}
+
+.titre{
+    text-decoration: underline;
+    color: rgb(100, 142, 155);
+}
+.tata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.secom{
+    width: 250px;
+    height: auto;
+}
+
+.kiki{
+    margin: 30px;
+    color: rgb(69, 242, 167);
+}
+.temtem{
+    margin: 30px;
+}
+
+.gig{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.temtem:hover{
+    text-decoration: underline;
+    color: rgb(69, 242, 167);
+}

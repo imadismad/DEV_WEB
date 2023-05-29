@@ -1,0 +1,39 @@
+* {
+    
+    font-family: 'Poppins', sans-serif; /* Tous les élément du body seront avec la police Poppins */
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.nani{
+  
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.001);/*pour avoir un fond blanc mais d'opacité assez faibe pour pouvoir voir le fond d'écran*/
+  backdrop-filter: blur(20px);/*utilisation de la fonction de perfectionner l'effet flou déjà commencer dans background color*/
+  border: 3px solid white;/* couleur et épesseur de la bordure de la case */
+  border-radius: 20px;/**/
+  height: 50vh;
+  display: flex;
+  margin-left: 50px;/* pour decoller les cases des extémité droite et gauche de la page*/
+  margin-right: 50px; /* pour decoller les cases des extémité droite et gauche de la page*/
+
+
+}
+
+.prof{
+  width: 350px;
+  height: 350px;
+  flex-direction: row;/* pour mettre chaque paragraphe à côté d'une image*/
+  
+  justify-content: space-between;
+}
+
+.info {
+  
+  padding: 100px;
+  color: white;
+  height: 20vh;
+  width: 200vh;
+}
+

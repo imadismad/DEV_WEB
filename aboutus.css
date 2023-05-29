@@ -1,0 +1,57 @@
+* {
+    
+    font-family: 'Poppins', sans-serif; /* Tous les élément du body seront avec la police Poppins */
+    margin: 0;
+    padding: 0;
+    
+  }
+
+ 
+
+.section {
+   color:rgb(69, 242, 167);
+   text-decoration: underline;
+   
+
+}
+
+.para{
+   color: rgb(190, 186, 194);
+   text-decoration: solid;
+   font-size: larger;
+}
+
+.valeurs{
+   color: white;
+   font-size: larger;
+}
+
+.values{
+   list-style: disc;
+   color: rgb(190, 186, 194);
+   font-size: larger;
+}
+
+.Block{
+   display: flex;
+   flex-direction: row;/* pour mettre chaque paragraphe à côté d'une image*/
+   padding: 100px;
+   justify-content: space-between;
+}
+
+.ect{
+   
+   width: 90vh;/*taille de texte qui change en fonction de la taille de l'écran pour un site dynamique*/
+}
+
+.abimg img{
+   width: 650px;
+   height: 487px;;
+   
+}
+
+
+
+
+ 
+ 
